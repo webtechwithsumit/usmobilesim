@@ -1,0 +1,21 @@
+body{
+    background-color: #0a062d;
+}
+
+
+@media  screen and (max-width:460px) {
+    
+    img.navimg {
+        height: 40px;
+    }
+    .desktop-hidden {
+        display: block !important;
+    }
+}
+
+img.navimg {
+    width: 110px;
+}
+.desktop-hidden {
+    display: none;
+}
